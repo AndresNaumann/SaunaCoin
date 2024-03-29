@@ -47,7 +47,7 @@ namespace MyFirstBlockchain
 
         public bool IsValid()
         {
-            if (this.Signature != null)
+            if (this.Signature == null)
             {
                 return false;
             }

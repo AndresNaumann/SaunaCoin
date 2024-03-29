@@ -20,7 +20,7 @@ namespace MyFirstBlockchain
             PrivateKey key3 = new PrivateKey();
             PublicKey wallet3 = key3.publicKey();
 
-            Blockchain saunaCoin = new Blockchain(2, 100);
+            Blockchain saunaCoin = new Blockchain(1, 100);
 
             saunaCoin.MinePendingTransactions(wallet1);
             saunaCoin.MinePendingTransactions(wallet2);
